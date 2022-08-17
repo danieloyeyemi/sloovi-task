@@ -1,0 +1,18 @@
+.task{
+  background-color: rgb(237,247,252);
+}
+.man{
+  width: 17%;
+  height: 100vh;
+  background-color: rgb(50,62,77);
+}
+.menu{
+  display: flex;
+}
+.main{
+  height: 300px;
+  background-color: rgb(237,247,252);
+}
+.con{
+  height: 25px;
+}
