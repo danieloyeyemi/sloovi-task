@@ -20,17 +20,18 @@ function login(userDetails){
 }
   return (
     <>
-        <section class="section">
-        <div class="col-4 mx-auto shadow-sm mt-4">
-            <div class="form">
-                <h2 className="text-center">Login</h2>
+        <section class="section pt-5">
+        <div class="col-4 mx-auto log shadow-sm mt-4">
+            <div class="form ">
+                <h2 className="text-center">Welcome To Sloovi</h2>
+                    <p className="text-center">Login To Add Task</p>
                     <div class="inputBx">
                     <input type="text" className="form-control mb-2" onChange={(e)=>setemail(e.target.value)} value={email} placeholder="email" name="" id=""/>
                     </div>
                     <div class="inputBx">
                     <input type="password" className="form-control mb-2" onChange={(e)=>setpassword(e.target.value)} value={password} placeholder="Password"name="" id=""/>
                     </div>
-                    <div class="inputBx">
+                    <div className="inputBx">
                         <input className="btn btn-success" type="submit" onClick={()=>login({email,password})} value="Login"/>
                     </div>
             </div>
